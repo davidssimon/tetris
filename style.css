@@ -3,20 +3,23 @@
 }
 
 .grid {
-  width: 200px;
-  height: 400px;
+  width: 220px;
+  height: 440px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+ background-image: url("space.jpg");
 }
 
 .grid div {
   height: 20px;
   width: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
 }
 
 .tetromino {
   background-color: blue;
+  border-radius: 6px;
 }
 
 .mini-grid {
